@@ -7,7 +7,8 @@ Este projeto é um sistema desenvolvido para o controle e gestão de testes de c
 - **Linguagem**: Java
 - **Frameworks**:
     - Spring Boot
-    - Spring JPA
+    - Spring JPA / Hibernate
+    - Maven
     - Spring Web
     - Spring Security (JWT, OAuth2)
 - **Banco de Dados**:
@@ -24,6 +25,18 @@ Este projeto é um sistema desenvolvido para o controle e gestão de testes de c
 - Autenticação e autorização via JWT e OAuth2.
 - Interface segura para visualização de relatórios e registros de testes.
 
+
+## Modelo conceitual
+![Modelo Conceitual](https://github.com/Ailton78/assets/blob/main/mdl_concreto.JPG)
+
+## Back end
+- Pré-requisitos: Java 21
+- Spring boot 3.1.0
+
+
+
+
+https://www.linkedin.com/in/ailton-sampaio-21864b124
 
 
 
