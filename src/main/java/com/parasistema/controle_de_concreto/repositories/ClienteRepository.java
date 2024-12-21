@@ -16,8 +16,9 @@ public interface ClienteRepository extends JpaRepository<Cliente, Long> {
     Page<ClienteDTO> findAllCliente(Pageable pageable);
 
     @Query("SELECT new com.parasistema.controle_de_concreto.dto.cliente_dto.ClienteEnderecoDTO(" +
-            "obj.id, obj.nome, obj.cpf_cnpj, obj.phone, obj.email, obj.endereco ) " +
-            " FROM Cliente obj ")
+            "obj.id, obj.nome, obj.cpf_cnpj, obj.phone, obj.email, obj.endereco.id, obj.endereco.logradouro, " +
+            "obj.endereco.numero, obj.endereco.bairro, obj.endereco.cidade, obj.endereco.estado, obj.endereco.cep) " +
+            "FROM Cliente obj ")
     Page<ClienteEnderecoDTO> findAllClienteEndereco(Pageable pageable);
 
     @Query("SELECT new com.parasistema.controle_de_concreto.dto.cliente_dto.ClienteEnderecoDTO(" +
