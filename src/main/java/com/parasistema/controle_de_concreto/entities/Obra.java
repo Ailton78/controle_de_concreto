@@ -31,7 +31,7 @@ public class Obra {
     @OneToMany(mappedBy = "obra")
     private List<Servico> servicos = new ArrayList<>();
 
-    private Obra(){}
+    public Obra(){}
 
     public Obra(Long id, String nome, Endereco endereco, Cliente responsavel, Fornecedor fornecedor) {
         this.id = id;
