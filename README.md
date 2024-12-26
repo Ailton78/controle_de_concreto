@@ -1,4 +1,5 @@
-# Sistema de Controle de Testes de Concreto
+# ConcreteLabSystem
+#### Laboratório de controle tecnológico de concreto
 
 Este projeto é um sistema desenvolvido para o controle e gestão de testes de concreto, utilizado em obras de construção civil. O sistema permite o armazenamento e gerenciamento de dados relacionados aos testes de resistência do concreto, fornecendo uma interface segura e eficiente para os usuários.
 
